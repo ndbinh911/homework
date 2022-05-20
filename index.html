@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table {
+        width:100%;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;
+    }
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+    tr:nth-child(odd) {
+    background-color:#fff;
+    }
+    th {
+        background-color: black;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <h1>Nhập thông tin học viên</h1>
+    <p>Họ tên: <input type="text"></p>
+    <p>Tuổi: <input type="text"></p>
+    <button type="submit">Thêm</button>
+    <hr>
+    <h3>Danh sách lớp</h3>
+    <table>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Tuổi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyễn Đức Bình</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+</body>
+</html>
